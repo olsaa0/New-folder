@@ -34,3 +34,8 @@ main {
 h2 {
     color: #333;
 }
+.products{
+    text-align: center;
+    display: flex;
+    flex-direction: inline;
+}
