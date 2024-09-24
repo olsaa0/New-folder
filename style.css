@@ -2,12 +2,12 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-color: #835454;
+    background-color: #CEDEBD;
 }
 
 header {
-    background-color: #5D1C34;
-    color: white;
+    background-color: #435334;
+    color: #FAF1E4;
     padding: 20px;
     text-align: center;
 }
@@ -32,10 +32,54 @@ main {
 }
 
 h2 {
-    color: #333;
+    color: #ffffff;
 }
-.products{
+
+.product {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #9EB384;
+}
+
+.product h3 {
+    margin: 0 0 10px 0;
+}
+
+button {
+    background-color: #435334;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #CEDEBD;
+}
+
+footer {
     text-align: center;
-    display: flex;
-    flex-direction: inline;
+    padding: 10px;
+    background-color: #5D1C34;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    color:#435334;
+}
+
+img{
+    height: 250px;
+}
+
+.products {
+    display: flex; 
+    flex-wrap: wrap;                              
+    justify-content: center; 
+    color:#FAF1E4;             
 }
