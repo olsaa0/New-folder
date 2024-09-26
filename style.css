@@ -61,8 +61,8 @@ button:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #5D1C34;
-    color: white;
+    background-color: #435334;
+    color: #FAF1E4;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -80,6 +80,6 @@ img{
 .products {
     display: flex; 
     flex-wrap: wrap;                              
-    justify-content: center; 
+    justify-content:center; 
     color:#FAF1E4;             
 }
