@@ -83,3 +83,35 @@ img{
     justify-content:center; 
     color:#FAF1E4;             
 }
+.product img:hover{
+    transform: scale(1.04)
+}
+.product p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#435334;
+}
+.perfume{
+    text-align: center;
+    color:#435334;
+}
+@media screen and (max-width: 100px){
+    .product{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 7px){
+    .product{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 100px){
+    .perfume{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 7px){
+    .perfume{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
