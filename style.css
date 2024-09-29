@@ -25,6 +25,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    overflow: hidden;
 }
 
 main {
@@ -75,6 +76,7 @@ h2{
 
 img{
     height: 250px;
+    max-width: 100%;
 }
 
 .products {
@@ -94,24 +96,10 @@ img{
     text-align: center;
     color:#435334;
 }
-@media screen and (max-width: 100px){
-    .product{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media screen and (max-width: 7px){
-    .product{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
-@media screen and (max-width: 100px){
-    .perfume{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media screen and (max-width: 7px){
-    .perfume{
-        grid-template-columns: repeat(2, 1fr);
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
     }
 }
